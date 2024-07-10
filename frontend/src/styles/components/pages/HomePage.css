@@ -1,0 +1,329 @@
+body{
+    background-color: rgb(34, 33, 33);
+}
+
+section{
+    max-width: 1300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/*Estilos Hero*/
+
+.hero{
+    margin-top: 100px;
+}
+
+section div h1 {
+	color: aliceblue;
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+    font-size: 40px;
+}
+
+section div h1 span{
+    color: #C6FF5C;
+}
+
+section div p{
+    color: white;
+        width: 55%;
+        font-size: 1rem;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0;    
+}
+
+section div p span{
+    color: #FFED4F;
+}
+
+section div button{
+    width: 240px;;
+}
+
+.content-hero{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-pic{
+    width: 99%;
+}
+
+
+
+
+/*Estilos About Us*/
+
+.about-us{
+    display: flex;
+}
+
+.about-us div{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.about-us div p{
+    width: 85%;
+	font-size: 17px;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+
+}
+
+.about-us div h2{
+    margin-top: 50px;
+	font-size: 30px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #FE6142;
+}
+
+
+
+
+/*Estilos Our Services*/
+
+#our-services h2 {
+	font-size: 60px;
+	color: aliceblue;
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+}
+
+.cards-contente{
+    display: flex;
+}
+
+.div-btns{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#btn-lol {
+	background-image: src="./media/img-btn-lol.png";
+	background-repeat: no-repeat;
+	background-color: #4d4d4d00;
+	border-width: 0px;
+	height: 124px;
+	width: 272px;
+	background-position: center;
+}
+
+#csgo {
+	background-image: src"./media/img-tn-csgo.png";
+	background-repeat: no-repeat;
+	background-color: #4d4d4d00;
+	border-width: 0px;
+	height: 124px;
+	width: 272px;
+	background-position: center;
+}
+
+#fc24 {
+	background-image: src="./media/img-btn-fc24.png";
+	background-repeat: no-repeat;
+	background-color: #4d4d4d00;
+	border-width: 0px;
+	height: 124px;
+	width: 72px;
+	background-position: center;
+}
+
+#valo {
+	background-image: src="./media/img-btn-valo.png";
+	background-repeat: no-repeat;
+	background-color: #4d4d4d00;
+	border-width: 0px;
+	height: 124px;
+	width: 272px;
+	background-position: center;
+}
+
+#our-services h3 {
+	font-size: 2rem;
+	color: #C6FF5C;
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+
+#our-services h4 {
+	font-size: 1.1rem;
+	color: #C6FF5C;
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#our-services p {
+	margin-bottom: 50px;
+	font-size: 17px;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	margin-left: 20px;
+	margin-right: 20px;
+    width: 90%;
+}
+
+.card-colors {
+	padding: 0px;
+    margin: 10px;
+	background: linear-gradient(45deg, rgba(9, 9, 10, 1) 0%, rgba(20, 20, 20, 1) 100%);
+	border-style: solid;
+	border-width: 3px;
+	border-color: #4D4D4D;
+	border-radius: 10px;
+}
+
+.card-fifa{
+    width: 566px;
+}
+
+.card-lol{
+    width: 268px;
+    height: 370px;
+}
+
+.card-valo{
+    width: 270px;
+    height: 370px;
+}
+
+
+
+
+/* Estilos extra*/
+
+#extra{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#extra div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#extra div div{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#extra h2{
+	color: aliceblue;
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 2rem;
+	text-align: center;
+}
+
+#extra span{
+	color: #C6FF5C;
+}
+
+#extra p{
+	text-align: center;
+	font-size: 1rem;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0;
+		margin-top: 20px;
+		margin-bottom: 35px;
+}
+
+#extra button{
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: transparent;
+	border: none;
+	width: 220px;
+	height: 50px;
+}
+
+
+/*Estilos nuestros clientes dicen*/
+
+#clients-says{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+flex-direction: column;
+}
+
+#clients-says p{
+    width: 100%;
+}
+
+#clients-says .card-colors{
+    padding: 15px;
+}
+
+.cont-says{
+    display: flex;
+    flex-direction: row;
+}
+
+.say-1{
+    display: flex;
+}
+
+.say-1 div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.dos-cards{
+    display: flex;
+}
+
+#clients-says h2{
+	font-size: 60px;
+	color: aliceblue;
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+
+#clients-says img{
+	margin-bottom: 10px;
+}
